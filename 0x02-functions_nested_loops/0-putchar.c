@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * main - Prints Holberton as a message.
- *
+ * to get ascii character value
+ * https://www.ibm.com/docs/en/sdse/6.4.0?topic=configuration-ascii-characters-from-33-126
+ * main - Prints _putchar as a message.
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+	int str[] = {95, 80, 85, 84, 67, 72, 97, 82};
 	int count, sz;
 
 	sz = sizeof(str) / sizeof(int);
