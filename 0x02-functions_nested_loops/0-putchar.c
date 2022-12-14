@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- * to get ascii character value
- * https://www.ibm.com/docs/en/sdse/6.4.0?topic=configuration-ascii-characters-from-33-126
  * main - Prints _putchar as a message.
  * 
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int str[] = {95, 80, 85, 84, 67, 72, 97, 82};
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
 	int count, sz;
 
 	sz = sizeof(str) / sizeof(int);
