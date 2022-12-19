@@ -1,5 +1,4 @@
-#inlcude main.h
-#include <string.h>
+#include main.h
 
 /*
  * calculate the length of a stirng
