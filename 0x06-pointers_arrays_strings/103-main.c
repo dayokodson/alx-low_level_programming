@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include "103-infinite_add.c"
 
 /**
  * main - check the code
@@ -18,7 +19,8 @@ int main(void)
         res = infinite_add(n, m, r, 100);
         if (res == 0)
         {
-                printf("Error\n");
+                printf("Error %d \n", 1);
+	       //printf("%s + %s = %s\n", n, m, res);
         }
         else
         {
@@ -29,7 +31,7 @@ int main(void)
         res = infinite_add(n, m, r2, 10);
         if (res == 0)
         {
-                printf("Error\n");
+                printf("Error %d\n",2);
         }
         else
         {
@@ -40,7 +42,7 @@ int main(void)
         res = infinite_add(n, m, r2, 10);
         if (res == 0)
         {
-                printf("Error\n");
+                printf("Error %d\n",3);
         }
         else
         {
@@ -49,7 +51,7 @@ int main(void)
         res = infinite_add(n, m, r3, 11);
         if (res == 0)
         {
-                printf("Error\n");
+                printf("Error %d\n",4);
         }
         else
         {
